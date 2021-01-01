@@ -38,5 +38,9 @@ public class Test {//This is a test class
 //        methods:methods of individual objects are shared
         zs.eat();
         ls.eat();
+        zs.sleep("教室");
+        String str = zs.introduce();
+        System.out.println(str);
+        System.out.println(zs.introduce());
     }
 }

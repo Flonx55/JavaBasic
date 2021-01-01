@@ -11,10 +11,14 @@ import java.nio.channels.Pipe;
 public class Person {
 
     public Person(){
-        age = 19;
-        name = "lili";
-        height = 169.5;
-
+//        age = 19;
+//        name = "lili";
+//        height = 169.5;
+    }
+    public Person(String name,int age ,double height){
+        this.name = name;
+        this.age = age;
+        this.height = height;
     }
 //      property:
     String name;
