@@ -37,8 +37,10 @@ public class Test {
         System.out.println(p2.age);
         System.out.println(p2.height);
 
-
-
+//this
+        //create a specific object
+        TestThis testthis = new TestThis(19,"lili",160.6);
+        testthis.eat();
 
 
     }

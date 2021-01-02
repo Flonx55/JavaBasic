@@ -16,6 +16,8 @@ public class Person {
 //        height = 169.5;
     }
     public Person(String name,int age ,double height){
+//        principle of proximity will appear when the parameter's name and assignment's name are same
+//        use "this" to avoid this problem
         this.name = name;
         this.age = age;
         this.height = height;
