@@ -26,5 +26,6 @@ public class Test {
 //        IDEA中打包的快捷键alt+enter,可以自动导包
         new ArrayList<>();
         new HashMap<>();
+
     }
 }
