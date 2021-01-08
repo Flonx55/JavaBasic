@@ -1,5 +1,6 @@
 package Flonx5;
 
+import com.FLonx4.sub.subTest;
 import com.Flonx.Person;//导包,就是为了定位
 import com.Flonx3.Demo;
 
@@ -26,6 +27,6 @@ public class Test {
 //        IDEA中打包的快捷键alt+enter,可以自动导包
         new ArrayList<>();
         new HashMap<>();
-
+        new subTest();
     }
 }

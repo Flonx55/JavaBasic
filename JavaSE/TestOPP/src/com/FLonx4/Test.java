@@ -1,5 +1,7 @@
 package com.FLonx4;
 
+import com.FLonx4.sub.subTest;
+
 /**
  * @Auther:Flonx
  * @Date:2021/1/5 - 01 - 05 - 16:47
@@ -46,6 +48,7 @@ public class Test {
         t.a();
         Test t2 = new Test();
         t2.a();
+        new subTest();
     }
 //代码块执行顺序:最先执行静态块,只在类加载的时候执行一次,
 // 所以一般以后实战写项目:创建工厂,数据库的初始化信息都放入静态块
@@ -64,4 +67,6 @@ public class Test {
 //    (4)加上模块名字
 //    (5)不能使用系统中的关键字nul con com1---com9
 //    (6)包声明的位置:一般都在非注释代码的第一行
+//    没有包含与被包含的概念
+
 }
