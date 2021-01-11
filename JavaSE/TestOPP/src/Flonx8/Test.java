@@ -22,5 +22,6 @@ public class Test {
         System.out.println(stu2.getAge());
         System.out.println(stu2.getSex());
 
+
     }
 }
