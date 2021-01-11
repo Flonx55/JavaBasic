@@ -46,5 +46,6 @@ public class Student {
         this.age = age;
         this.name = name;
         this.setSex(sex);
+
     }
 }
