@@ -8,11 +8,43 @@ package com.Flonx6;
  */
 public class Girl {
     private  int age = 0;
+    private int sno;
+    private String name;
+    private double height;
 
+//
+    public int getAge() {
+        return age;
+    }
+
+    public int getSno() {
+        return sno;
+    }
+
+    public void setSno(int sno) {
+        this.sno = sno;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
 //    封装:将某些东西隐藏,然后提供相应的方式进行获取
 //    所以private其实不算封装,没有提供相应的方式进行获取
 //    一般是加了限制访问修饰符的基础上,通过写方法
 
+//
 //    读取年龄
     public int readAge(){
         return age;
