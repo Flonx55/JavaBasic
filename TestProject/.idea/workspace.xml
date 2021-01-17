@@ -58,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/GitHub/JavaBasic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,6 +139,7 @@
       <workItem from="1609238154569" duration="3437000" />
       <workItem from="1609245768593" duration="2195000" />
       <workItem from="1609296969966" duration="183000" />
+      <workItem from="1610842416826" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="TestIdea">
       <created>1609156916268</created>
